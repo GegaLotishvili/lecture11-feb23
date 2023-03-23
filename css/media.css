@@ -1,0 +1,33 @@
+@media (max-width: 1150px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .info-box h5,
+    .info-box h2 {
+        text-align: center;
+        width: 100%;
+    }
+    .info-box h5 {
+        font-size: 12px;
+    }
+    .info-box h2 {
+        font-size: 36px;
+    }
+    .myform {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mytextarea {
+        margin-right: 0;
+        margin-bottom: 16px;
+        width: 80%;
+    }
+    .myinputs {
+        max-width: 1000px;
+        width: 80%;
+    }
+}
